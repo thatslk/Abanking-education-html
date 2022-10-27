@@ -1,0 +1,22 @@
+.footer {
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    justify-content: center;
+
+    &__icons-wrapper {
+        display: flex;
+        gap: 35px;
+        margin: 0 auto;
+    }
+
+    &__copyright {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #21243d;
+    }
+}

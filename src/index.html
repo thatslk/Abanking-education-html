@@ -1,16 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>John's Personal Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__container">
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Works</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-<body>
-    
-</body>
+    <main>
+      <section class="welcome">
+        <div class="welcome__container">
+          <div class="welcome__left">
+            <h1 class="welcome__title">Hi, I am John, Creative Technologist</h1>
+            <p class="welcome__description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <div class="welcome__button-wrapper">
+              <button class="welcome__button">Download Resume</button>
+            </div>
+          </div>
+          <div class="welcome__right">
+            <img
+              class="welcome__image"
+              src="images/dude.png"
+              width="243px"
+              height="243px"
+              alt="John's photo"
+            />
+          </div>
+        </div>
+      </section>
 
+      <section class="posts">
+        <div class="posts__wrapper">
+          <div class="posts__title-wrapper">
+            <p class="posts__title">Recent posts</p>
+            <a class="posts__link" href="#">View all</a>
+          </div>
+          <div class="posts__item-container">
+            <div class="posts__item">
+              <h3 class="posts__item-title">
+                Making a design system from scratch
+              </h3>
+              <p class="posts__item-category">Design, Pattern</p>
+              <p class="posts__item-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+
+            <div class="posts__item">
+              <h3 class="posts__item-title">
+                Creating pixel perfect icons in Figma
+              </h3>
+              <p class="posts__item-category">Figma, Icon Design</p>
+              <p class="posts__item-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="projects-wrapper">
+          <div class="projects__title-wrapper">
+            <p class="projects__title">Featured works</p>
+          </div>
+
+          <div class="projects__items-wrapper">
+            <div class="projects__item">
+              <div class="projects__item-wrapper">
+                <div class="projects__item-image-wrapper">
+                  <img
+                    class="projects__item-image"
+                    class="welcome__image"
+                    src="images/Rectangle 30.png"
+                    width="246px"
+                    height="180px"
+                    alt="Project1 Picture"
+                  />
+                </div>
+
+                <div class="projects__item-content">
+                  <h2 class="projects__item-title">Designing Dashboards</h2>
+                  <div class="projects__item-properties">
+                    <span class="projects__item-year">2020</span>
+                    <p class="projects__item-category">Dashboard</p>
+                  </div>
+                  <p class="projects__item-description">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </div>
+              <div class="projects__item-separator"></div>
+            </div>
+
+            <div class="projects__item">
+              <div class="projects__item-wrapper">
+                <div class="projects__item-image-wrapper">
+                  <img
+                    class="projects__item-image"
+                    class="welcome__image"
+                    src="images/Rectangle 32.png"
+                    width="246px"
+                    height="180px"
+                    alt="Project1 Picture"
+                  />
+                </div>
+
+                <div class="projects__item-content">
+                  <h2 class="projects__item-title">
+                    Vibrant Portraits of 2020
+                  </h2>
+                  <div class="projects__item-properties">
+                    <span class="projects__item-year">2018</span>
+                    <p class="projects__item-category">Illustration</p>
+                  </div>
+                  <p class="projects__item-description">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </div>
+              <div class="projects__item-separator"></div>
+            </div>
+
+            <div class="projects__item">
+              <div class="projects__item-wrapper">
+                <div class="projects__item-image-wrapper">
+                  <img
+                    class="projects__item-image"
+                    class="welcome__image"
+                    src="images/Rectangle 34.png"
+                    width="246px"
+                    height="180px"
+                    alt="Project1 Picture"
+                  />
+                </div>
+
+                <div class="projects__item-content">
+                  <h2 class="projects__item-title">
+                    36 Days of Malayalam type
+                  </h2>
+                  <div class="projects__item-properties">
+                    <span class="projects__item-year">2018</span>
+                    <p class="projects__item-category">
+                      36 Days of Malayalam type
+                    </p>
+                  </div>
+                  <p class="projects__item-description">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </div>
+              <div class="projects__item-separator"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__icons-wrapper">
+        <div class="footer__icon-wrapper">
+          <img
+            class="footer__icon"
+            src="images/fb.png"
+            width="30px"
+            height="30px"
+            alt="Project1 Picture"
+          />
+        </div>
+
+        <div class="footer__icon-wrapper">
+          <img
+            class="footer__icon"
+            src="images/insta.png"
+            width="30px"
+            height="30px"
+            alt="Project1 Picture"
+          />
+        </div>
+
+        <div class="footer__icon-wrapper">
+          <img
+            class="footer__icon"
+            src="images/twitter.png"
+            width="36.92px"
+            height="30px"
+            alt="Project1 Picture"
+          />
+        </div>
+
+        <div class="footer__icon-wrapper">
+          <img
+            class="footer__icon"
+            src="images/Linkedin.png"
+            width="30px"
+            height="30px"
+            alt="Project1 Picture"
+          />
+        </div>
+      </div>
+
+      <p class="footer__copyright">Copyright ©2020 All rights reserved</p>
+    </footer>
+  </body>
 </html>

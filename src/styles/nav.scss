@@ -1,0 +1,19 @@
+.nav {
+    &__link {
+        color: #000000;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 600;
+
+        transition: opacity 0.3s ease;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    &__list {
+        display: flex;
+        gap: 33px;
+    }
+}
